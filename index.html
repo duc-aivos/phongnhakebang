@@ -71,16 +71,17 @@
       }
     </style>
 
-    <!-- N8n chat
+<!--     N8n chat -->
       <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
       <script type="module">
         import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
         createChat({
-          webhookUrl: process.env.WEBHOOK_URL
+          webhookUrl: 'https://n8n.aivos.tech/webhook/14598790-c9c9-4da0-a139-557f571c8083/chat',
+          initialMessages: []
         });
       </script>  
-    -->
+   
   </head>
 
   <body class="gradient leading-relaxed tracking-wide flex flex-col">
